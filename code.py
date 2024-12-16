@@ -217,7 +217,7 @@ def reset():
     game_speed = 1.0 
     last_speed_increment_time = start_time  
 def game_loop():
-    global show_rules, in_game, last_spawn_time, last_o_spawn_time, is_jumping, game_over, shop_x, stop_all, start_time, SPAWN_INTERVAL, SPAWN_O_INTERVAL, npc_x, npc_y
+    global show_rules, in_game, last_spawn_time, last_o_spawn_time, is_jumping, game_over, stop_all, start_time, SPAWN_INTERVAL, SPAWN_O_INTERVAL, npc_x, npc_y
     global game_speed, last_speed_increment_time
     clock = pygame.time.Clock()
     running = True
